@@ -1,0 +1,110 @@
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+}
+
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.products-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products-wrapper ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-items: end;
+}
+
+.produtos{
+width: 80%;
+}
+
+button{
+background-color: rgb(166, 214, 214);
+border: white;
+border-radius: 6px;
+width: 65%;
+height: 30px;
+cursor: pointer;
+}
+
+body{
+  background-color: rgba(233, 233, 233, 0.815);
+  margin: 0px;
+  font-family: 'Abyssinica SIL', serif;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.fileira{
+padding: 0px;
+}
+
+.cards{
+  background-color: rgb(255, 255, 255);
+  margin: 3px 3px 3px 3px;
+  border-radius: 10px;
+  padding-bottom: 7px;
+  box-shadow: 4px 5px 5px rgb(177, 177, 177);
+  height: 472px;
+}
+
+
+button:hover{
+  border:rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.nomeproduto{
+  height: 42px;
+}
