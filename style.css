@@ -108,3 +108,7 @@ button:hover{
 .nomeproduto{
   height: 42px;
 }
+
+.produtos:hover{
+  opacity: calc(0.4);
+}
